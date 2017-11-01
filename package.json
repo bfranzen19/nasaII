@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/bfranzen19/nasaII/issues"
   },
-  "homepage": "https://github.com/bfranzen19/nasaII#readme"
+  "homepage": "https://github.com/bfranzen19/nasaII#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
 }
