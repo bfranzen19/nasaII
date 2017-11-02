@@ -8,16 +8,12 @@ $(document).ready(function() {
       start_date: $("#STdate").val(),
       end_date:   $("#ENDdate").val(),
     }
-    $.post('/search', dateData, function(dataFromServer) {
+
+    $.get('/search', dateData, function(dataFromServer) {
       console.log(dataFromServer)
+
+    
     })
   })
-
-
-
-
-
-
-
 
 }) // end of document ready
