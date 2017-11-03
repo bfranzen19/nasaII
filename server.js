@@ -33,9 +33,7 @@ app.get('/search', function(req,res) {
       res.send('oops...')
     } else {
       var bodyAsObj = JSON.parse(body)
-      console.log(bodyAsObj)
-      console.log(typeof bodyAsObj)
-      res.send({result: bodyAsObj.near_earth_objects})
+      res.send({results: bodyAsObj.near_earth_objects})
     }
   })
 })
