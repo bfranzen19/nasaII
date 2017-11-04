@@ -6,19 +6,24 @@
   <link rel="stylesheet", href="/css/main.css"/>
 </head>
 <body>
-  <h1>enter a start and end date</h1>
+  <div class="background">
+    <br/><br/>
 
-  <form id="search">
-    <input id="STdate" placeholder="start, YYYY-MM-DD"/>
-    <input id="ENDdate" placeholder="end, YYYY-MM-DD"/>
-    <button type="submit">submit</button>
-  </form>
-
-  <div id="die"> we're all gonna die! </div>
-
-  <div id="container"></div>
+    <h1 class="title">enter a start &amp; end date to see all the potentially dangerous asteroids</h1><br/>
 
 
+    <form id="search">
+      <input class="shadow center" id="STdate" placeholder="start, YYYY-MM-DD"/>
+      <input class="shadow center" id="ENDdate" placeholder="end, YYYY-MM-DD"/>
+      <button class="shadow center" type="submit">submit</button>
+    </form>
+
+    <div id="die" class="hidden"> we're all gonna die! </div>
+
+    <div id="container"></div>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+  </div> <!-- end of background div -->
 <!-- jQ link -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- js file -->

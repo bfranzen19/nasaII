@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 // need to get form data to enter into the query string
   $('#search').on('submit', function(event) {
-    $('#die').toggleClass('hidden')
+    $('#die').removeClass('hidden')
     event.preventDefault()
 
     var dateData = {
